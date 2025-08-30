@@ -66,7 +66,7 @@ Emit when new prover register and waiting reviewing
 event TransferProver(address prover, address owner)
 ```
 
-Emit when prover owner transfer to others
+Emit when prover owner transfers to others
 
 ### UpgradeProver
 
@@ -74,7 +74,7 @@ Emit when prover owner transfer to others
 event UpgradeProver(address prover, uint256 work, uint256 version, uint256 overtime, address verifier)
 ```
 
-Emit when the prover start upgrading and waiting reviewing, before approve, it will still use old info
+Emit when the prover start upgrading and waiting reviewing, before approval, it will still use old info
 
 ### ApproveProver
 
