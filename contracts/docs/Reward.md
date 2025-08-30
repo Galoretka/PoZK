@@ -384,7 +384,7 @@ Miner collect reward in epoch and prover, collect reward to unstaking list
 function playerCollect(uint256 epoch, address prover, address player) public
 ```
 
-Player collect reward in epoch and prover, collect to player wallet
+Player collect reward in epoch and prover, collect to player's wallet
 
 #### Parameters
 
