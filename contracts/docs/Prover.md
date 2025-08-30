@@ -68,7 +68,7 @@ Emit when new prover register and waiting reviewing
 event TransferProver(address prover, address owner)
 ```
 
-Emit when prover owner transfer to others
+Emit when prover owner transfers to others
 
 ### UpgradeProver
 
@@ -76,7 +76,7 @@ Emit when prover owner transfer to others
 event UpgradeProver(address prover, enum ProverType ptype, uint256 work, uint256 version, uint256 overtime, address verifier, string name, string types)
 ```
 
-Emit when the prover start upgrading and waiting reviewing, before approve, it will still use old info
+Emit when the prover start upgrading and waiting reviewing, before approval, it will still use old info
 
 ### ApproveProver
 
@@ -84,7 +84,7 @@ Emit when the prover start upgrading and waiting reviewing, before approve, it w
 event ApproveProver(address prover, enum ProverType ptype, uint256 work, uint256 epoch, uint256 version, uint256 overtime, address verifier, string types, bool minable, bool approved)
 ```
 
-Emit when the prover is approved or reject
+Emit when the prover is approved or rejected
 
 ### StopProver
 
